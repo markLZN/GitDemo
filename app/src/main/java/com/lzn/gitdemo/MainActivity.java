@@ -13,5 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         aaa = (TextView) findViewById(R.id.tv1);
+        aaa.setText("伤害");
+
     }
 }
